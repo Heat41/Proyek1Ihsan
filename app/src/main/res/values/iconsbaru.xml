@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IconsBaru">
+        <item>@drawable/icon_baru1</item>
+        <item>@drawable/icon_baru2</item>
+        <item>@drawable/ib3</item>
+    </array>
+    <array name="warna">
+        <item>@color/abu</item>
+        <item>@color/merah</item>
+        <item>@color/biru</item>
+    </array>
+</resources>
