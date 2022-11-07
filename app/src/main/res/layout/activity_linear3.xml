@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/button_text"
-            android:id="@+id/kepada"
+            android:id="@+id/kepadaa"
             android:hint="Kepada" />
     </LinearLayout>
 
@@ -67,17 +67,19 @@
             android:textSize="18sp"
             android:text="Subyek"/>
         <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Subyek"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/subyekk"
+            android:hint="Subyek"/>
     </LinearLayout>
 
         <EditText
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="top"
-        android:hint="Tuliskan pesan anda disini"/>
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:id="@+id/pesann"
+            android:hint="Tuliskan pesan anda disini"/>
 
         <Button
         android:layout_width="100dp"

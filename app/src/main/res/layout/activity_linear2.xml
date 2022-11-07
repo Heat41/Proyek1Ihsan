@@ -34,21 +34,23 @@
         android:id="@+id/kepada"
         android:hint="Kepada"/>
     <EditText
+        android:id="@+id/subyek"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Subyek"/>
     <EditText
+        android:id="@+id/pesan"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="top"
         android:hint="Tuliskan pesan anda disini"/>
     <Button
+        android:id="@+id/kirim"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:textColor="@color/button_text"
         android:hint="@string/kirim"
-        android:id="@+id/kirim"
         android:text="Kirim"/>
 </LinearLayout>

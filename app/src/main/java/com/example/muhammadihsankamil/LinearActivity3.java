@@ -10,19 +10,25 @@ import android.widget.EditText;
 
 
 public class LinearActivity3 extends AppCompatActivity {
-    String user;
-    EditText eKepada;
+    String kepada, subyek, pesan;
+    EditText eKepada, eSubyek, ePesan;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linear3);
 
-        user = getIntent().getExtras().getString("user");
+        kepada = getIntent().getExtras().getString("kepada");
+        subyek = getIntent().getExtras().getString("subyek");
+        pesan = getIntent().getExtras().getString("pesan");
 
-        eKepada = findViewById(R.id.kepada);
+        eKepada = findViewById(R.id.kepadaa);
+        eSubyek = findViewById(R.id.subyekk);
+        ePesan = findViewById(R.id.pesann);
 
-        eKepada.setText(user);
+        eKepada.setText(kepada);
+        eSubyek.setText(subyek);
+        ePesan.setText(pesan);
 
     }
 }
